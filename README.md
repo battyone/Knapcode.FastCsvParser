@@ -1,3 +1,7 @@
+# This is a fork of https://www.nuget.org/packages/FastCsvParser. The only change is the assembly name (CsvParser to Knapcode.FastCsvParser), package ID (FastCsvParser to Knapcode.FastCsvParser), and the root namespace (CsvParser to FastCsvParser).
+
+# The purpose of the change is to allow this library to run in the same process as SoftCircuits.CsvParser, which has the same assembly and namespace name.
+
 # CsvParser
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fbopohaa%2FCsvParser.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fbopohaa%2FCsvParser?ref=badge_shield)
 [![Build Status](https://travis-ci.org/bopohaa/CsvParser.svg?branch=master)](https://travis-ci.org/bopohaa/CsvParser)

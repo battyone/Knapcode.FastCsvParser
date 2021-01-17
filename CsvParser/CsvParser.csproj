@@ -5,16 +5,22 @@
     <Company>Nikolay Vorobev</Company>
     <Authors>Nikolay Vorobev</Authors>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Description>A library for fast read data with CSV format according to RFC4180 with small extensions. Best solution for parse very large data files</Description>
+    <Description>
+      This is a fork of https://www.nuget.org/packages/FastCsvParser. The only change is the assembly name (CsvParser to Knapcode.FastCsvParser), package ID (FastCsvParser to Knapcode.FastCsvParser), and the root namespace (CsvParser to FastCsvParser).
+
+      The purpose of the change is to allow this library to run in the same process as SoftCircuits.CsvParser, which has the same assembly and namespace name.
+
+      A library for fast read data with CSV format according to RFC4180 with small extensions. Best solution for parse very large data files</Description>
     <PackageLicenseUrl>https://github.com/bopohaa/CsvParser/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/bopohaa/CsvParser</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/bopohaa/CsvParser.git</RepositoryUrl>
+    <RepositoryUrl>https://github.com/joelverhagen/Knapcode.FastCsvParser</RepositoryUrl>
     <RepositoryType>GIT</RepositoryType>
     <PackageTags>CSV, parser, fast</PackageTags>
     <SignAssembly>false</SignAssembly>
     <AssemblyOriginatorKeyFile>CsvParser.pfx</AssemblyOriginatorKeyFile>
     <Copyright>Copyright © 2018 Nikolay Vorobev</Copyright>
     <PackageId>Knapcode.FastCsvParser</PackageId>
+    <AssemblyName>Knapcode.FastCsvParser</AssemblyName>
     <Version>1.1.0</Version>
     <PackageIconUrl>https://raw.githubusercontent.com/bopohaa/CsvParser/master/icon.png</PackageIconUrl>
   </PropertyGroup>
