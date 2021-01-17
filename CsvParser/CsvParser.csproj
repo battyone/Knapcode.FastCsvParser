@@ -14,7 +14,7 @@
     <SignAssembly>false</SignAssembly>
     <AssemblyOriginatorKeyFile>CsvParser.pfx</AssemblyOriginatorKeyFile>
     <Copyright>Copyright © 2018 Nikolay Vorobev</Copyright>
-    <PackageId>FastCsvParser</PackageId>
+    <PackageId>Knapcode.FastCsvParser</PackageId>
     <Version>1.1.0</Version>
     <PackageIconUrl>https://raw.githubusercontent.com/bopohaa/CsvParser/master/icon.png</PackageIconUrl>
   </PropertyGroup>
