@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-namespace CsvParser.Common
+namespace FastCsvParser.Common
 {
     internal class Row : ICsvReaderRow
     {

@@ -4,7 +4,7 @@ using System.Diagnostics;
 using System.Text;
 using System.Threading;
 
-namespace CsvParser.Common
+namespace FastCsvParser.Common
 {
     /// <summary>
     /// Generic implementation of object pooling pattern with predefined pool size limit. The main

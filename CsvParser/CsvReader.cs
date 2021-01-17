@@ -1,4 +1,4 @@
-﻿using CsvParser.Common;
+﻿using FastCsvParser.Common;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -9,7 +9,7 @@ using System.Threading;
 using System.Threading.Tasks;
 #endif
 
-namespace CsvParser
+namespace FastCsvParser
 {
     public class CsvReader : IEnumerator<ICsvReaderRow>
     {

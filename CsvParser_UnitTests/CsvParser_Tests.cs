@@ -1,4 +1,4 @@
-using CsvParser;
+using FastCsvParser;
 using NUnit.Framework;
 using System;
 using System.IO;
@@ -33,7 +33,7 @@ namespace Tests
 
             try
             {
-                var csvreader = new CsvParser.CsvReader(new MemoryStream(Encoding.UTF8.GetBytes(content)),
+                var csvreader = new FastCsvParser.CsvReader(new MemoryStream(Encoding.UTF8.GetBytes(content)),
                                                                          Encoding.UTF8);
 
                 csvreader.MoveNext();
@@ -82,7 +82,7 @@ namespace Tests
 
             try
             {
-                var csvreader = new CsvParser.CsvReader(new MemoryStream(Encoding.UTF8.GetBytes(content)),
+                var csvreader = new FastCsvParser.CsvReader(new MemoryStream(Encoding.UTF8.GetBytes(content)),
                                                                          Encoding.UTF8);
 
                 csvreader.MoveNext();

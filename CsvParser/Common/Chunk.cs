@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 
-namespace CsvParser.Common
+namespace FastCsvParser.Common
 {
     internal class Chunk : IDisposable, IEnumerator<KeyValuePair<Chunk.TypeEnum, int>>
     {

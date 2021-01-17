@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CsvParser
+namespace FastCsvParser
 {
     public interface ICsvReaderRow : IDisposable, IEnumerable<string>
     {

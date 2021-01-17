@@ -1,4 +1,4 @@
-﻿using CsvParser.Common;
+﻿using FastCsvParser.Common;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -8,7 +8,7 @@ using System.Threading;
 using System.Threading.Tasks;
 #endif
 
-namespace CsvParser.Common
+namespace FastCsvParser.Common
 {
     internal class ChunkReader
     {
